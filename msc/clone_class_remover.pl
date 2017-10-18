@@ -7,7 +7,7 @@ my @where;
 open FILEHANDLE, "salidaClasses.txt" or die;
 ##
 #Create a file where to send the refined classes open
-OUTPUT, ">refinedClasses.txt" or die;
+    OUTPUT, ">refinedClasses.txt" or die;
 while (<FILEHANDLE>) {
     last if /^\#begin\{file des#ription\}/;
 }
@@ -27,16 +27,16 @@ while (<FILEHANDLE>) {
     use strict;
     use warnings FATAL => 'all';
     use warnings FATAL => 'all';
-    string2 = split( /\s+/, $_ );
+    string2 = split(/\s+/, $_);
     push @string, @string2;
 }
 my $begPos;
 while (string) {
     $fileNo = shiftstring;
-    if ( $fileNo =~ /\./ ) {
+    if ($fileNo =~ /\./) {
         $thisPos = shiftstring;
-        where = bus a( $fileNo, $thisPos );
-        if ( $#where > 0 ) {
+        where = bus a($fileNo, $thisPos);
+        if ($#where > 0) {
             selectClass();
         }
         else {
@@ -53,19 +53,19 @@ sub selectClass {
     my ( @sortedvalues, @temp );
 
     #FIND THE BEGINNING OF THE BLOCK CORRESPONDING TO OUR CURRENT CLONE
-    for $i ( 0 .. $#where ) {
+    for $i (0 .. $#where) {
         $begPos = @where[$i];
-        while ( $begPos > 0 ) {
+        while ($begPos > 0) {
             last
-              if $string[$begPos] eq "\#begin{set}"
-              or $string[$begPos] eq undef;
+                if $string[$begPos] eq "\#begin{set}"
+                    or $string[$begPos] eq undef;
             $begPos -= 1;
         }
-        if ( $begPos == 0 ) {
+        if ($begPos == 0) {
             $noElem += 1;
         }
         ##COUNT THE ELEMENTS OF THE CLASS
-        for $i ( $begPos .. $#string ) {
+        for $i ($begPos .. $#string) {
             ##COUNT IF WE HAVE A ".", WHICH MEANS ONE CLASS MEMBER
             $noElem += 1 if $string[$i] =~ /\./;
             last if $string[$i] eq "\#end{set}";
@@ -92,9 +92,9 @@ sub selectClass {
 
     #AFTER WRITTEN THE ELECTED CLASS DELETE THE REST OF CLASSES
     #FROM @string
-    while ( ( $begPos, $dummy ) = each(%classSet) ) {
-        @temp = busca( $fileNo, $thisPos );
-        if ( @string[1] ne $fileNo or @string[2] ne $thisPos ) {
+    while (($begPos, $dummy) = each(%classSet)) {
+        @temp = busca($fileNo, $thisPos);
+        if (@string[1] ne $fileNo or @string[2] ne $thisPos) {
             shift @temp;
         }
         $begPos = shift @temp;
@@ -105,10 +105,10 @@ sub selectClass {
 sub busca {
     my $i;
     my @positions;
-    @positions = ( @positions, 0 );
-    for $i ( 0 .. $#string ) {
-        if ( $fileNo eq @string[$i] and $thisPos eq @string[ $i + 1 ] ) {
-            @positions = ( @positions, $i + 1 );
+    @positions = (@positions, 0);
+    for $i (0 .. $#string) {
+        if ($fileNo eq @string[$i] and $thisPos eq @string[ $i + 1 ]) {
+            @positions = (@positions, $i + 1);
         }
     }
     return @positions;
@@ -118,33 +118,33 @@ sub borra {
     my $pos = 0;
 
     #SEARCH THE BEGINNING OF THE CLASS
-    if ( $string[$begPos] ne "\#begin{set}" ) {
-        while ( $begPos > 0 ) {
+    if ($string[$begPos] ne "\#begin{set}") {
+        while ($begPos > 0) {
             last
-              if $string[$begPos] eq "\#begin{set}"
-              or $string[$begPos] eq undef;
+                if $string[$begPos] eq "\#begin{set}"
+                    or $string[$begPos] eq undef;
             $begPos -= 1;
         }
     }
     $pos = $begPos;
-    while ( @string[$pos] ne "\#end{set}" and @string ) {
-        splice( @string, $pos, 1 );
+    while (@string[$pos] ne "\#end{set}" and @string) {
+        splice(@string, $pos, 1);
     }
-    splice( @string, $pos, 1 );
+    splice(@string, $pos, 1);
 }
 
 sub escribe {
     my ( $i, $j );
     $j = $begPos;
-    if ( $begPos == 0 ) {
+    if ($begPos == 0) {
         print OUTPUT "\n#begin{set}\n $fileNo $thisPos ";
     }
-    else {    #IF WE DID THE CLASS SELECTION PROCEDURE
+    else {#IF WE DID THE CLASS SELECTION PROCEDURE
         print OUTPUT "\n#begin{set}\n ";
     }
-    for $i ( $j .. $#string ) {
+    for $i ($j .. $#string) {
         print OUTPUT " ${string[$i]}";
-        if ( $string[ $i + 1 ] =~ /\./ or $string[ $i + 1 ] =~ /end/ ) {
+        if ($string[ $i + 1 ] =~ /\./ or $string[ $i + 1 ] =~ /end/) {
             print OUTPUT "\n";
         }
         last if $string[ $i + 1 ] eq "\#begin{set}";
