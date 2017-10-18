@@ -9,7 +9,7 @@ This repo contains the code of both my [Master of Science en][m] and [Profession
 The idea is to present a high-level overview of the problem to solve, then a deployment's view of the components proposed in each solution, the depedencies, and finally the code itself.
 
 
-##License
+## License
 
 Copyright © 2017 Orlando Méndez
 
