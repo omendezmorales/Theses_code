@@ -11,5 +11,5 @@ The idea is to present a high-level overview of the problem to solve, then a dep
 
 ## License
 
-Copyright © 2017 Orlando Méndez
+Copyright © 2017 Orlando Méndez - TU/e
 
