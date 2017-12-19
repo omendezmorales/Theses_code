@@ -1,6 +1,6 @@
 ## Theses code
 
-This repo contains the code of both my [Master of Science en][m] and [Professional Doctorate in Engineering][pd] (see page 15).
+This repo contains the code of both my [Master of Science][m] and [Professional Doctorate in Engineering][pd] (see page 15).
 
 [m]: http://swerl.tudelft.nl/bin/view/Main/OrlandoMendez
 
