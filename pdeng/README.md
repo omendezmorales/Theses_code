@@ -14,5 +14,7 @@ Partial software updates in Allura cardiovascular systems are required.
 ##  Why
 Because the current update procedure is expensive, time consuming and therefore, represents a source of dissatisfaction both for Philips Healthcare and its clients.
 ##  How
-The deployment diagram below shows the scripts and programs written for the generation of .msp files:
+The deployment diagram below shows the scripts and programs written for the generation of [.msp files][msp] -a.k.a. *deltas* in the picture:
 ![.](https://github.com/omendezmorales/Theses_code/blob/master/pdeng/DeploymentView.png)
+
+[msp]:https://fileinfo.com/extension/msp
