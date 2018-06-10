@@ -7,7 +7,7 @@ The following outlines the solution I developed for my degree project for the [P
 
 Following text comes from the [brochure][bc] mentioned on the main README.md.
 
-[bc]:http://wwwooti.win.tue.nl/programme/Brochure-SoftwareTechnologyProjects2009.pdf
+[bc]:https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
 ##  What / The Challenge(s)
 Partial software updates in Allura cardiovascular systems are required.
