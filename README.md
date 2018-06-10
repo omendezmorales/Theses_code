@@ -4,7 +4,7 @@ This repo contains the code of both my [Master of Science][m] and [Professional 
 
 [m]: http://swerl.tudelft.nl/bin/view/Main/OrlandoMendez
 
-[pd]: http://wwwooti.win.tue.nl/programme/Brochure-SoftwareTechnologyProjects2009.pdf
+[pd]: https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
 The idea is to present a high-level overview of the problem to solve, then a deployment's view of the components proposed in each solution, the depedencies, and finally the code itself.
 
