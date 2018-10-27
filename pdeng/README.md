@@ -5,8 +5,9 @@ The following outlines the solution I developed for my degree project for the [P
 
 [dip]: https://www.4tu.nl/sai/en/programmes-and-tracks/st/
 
-Following text comes from the [brochure][bc] mentioned on the main README.md.
+Following text comes from the [brochure][bc] mentioned on the main [README][m_rd].
 
+[m_rd]:https://github.com/omendezmorales/Theses_code/blob/master/README.md
 [bc]:https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
 ##  What / The Challenge(s)
