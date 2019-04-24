@@ -1,6 +1,6 @@
 If you've read my [thesis][t], you'll find that I've come up with a method that identifies code clones with the aid of tools like [CCFinder][cc] and some perl scripting.
 
-[t]: http://swerl.tudelft.nl/twiki/pub/Main/OrlandoMendez/OrlandoMendez.pdf
+[t]: ./Aspect_mining_using_clone_detection_OrlandoMendez_MSc.pdf
 [cc]:http://www.ccfinder.net/index.html
 
 __Why__
