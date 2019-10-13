@@ -11,7 +11,7 @@ Following text comes from the [brochure][bc] mentioned on the main [README][m_rd
 [bc]:https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
 ##  What / The Challenge(s)
-Partial software updates in Allura cardiovascular systems are required.
+Partial software updates in [Allura cardiovascular systems][Allura] are required.
 ##  Why
 Because the current update procedure is expensive, time consuming and therefore, represents a source of dissatisfaction both for Philips Healthcare and its clients.
 ##  How
@@ -19,3 +19,4 @@ The deployment diagram below shows the scripts and programs written for the gene
 ![.](https://github.com/omendezmorales/Theses_code/blob/master/pdeng/DeploymentView.png)
 
 [msp]:https://fileinfo.com/extension/msp
+[Allura]:https://www.usa.philips.com/healthcare/product/HC722029CA/allura-xper-fd20-10-biplane-cardiovascular-x-ray-system
