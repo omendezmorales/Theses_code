@@ -6,7 +6,7 @@ This repo contains the code of both my [Master of Science][m] and [Professional 
 
 [pd]: https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
-The idea is to present a high-level overview of the problem to solve, then a deployment's view of the components proposed in each solution, the depedencies, and finally the code itself.
+The idea is to present a high-level overview of the problem to solve, then a deployment's view of the components proposed in each solution, the dependencies, and finally the code itself.
 
 
 ## License
