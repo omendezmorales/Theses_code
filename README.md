@@ -2,7 +2,7 @@
 
 This repo contains the code of both my [Master of Science][m] and [Professional Doctorate in Engineering][pd] (see page 26 & 27).
 
-[m]: https://1drv.ms/b/s!AsDcb1ONRmihsWqp6ZNsjqcY1zIw?e=6L4qfj
+[m]: https://github.com/omendezmorales/Theses_code/blob/master/msc/README.md
 
 [pd]: https://github.com/omendezmorales/Theses_code/blob/master/pdeng/Project%20booklet%202009.pdf
 
