@@ -12,7 +12,7 @@ is expected to be more understandable, easier to maintain, and potentially easy 
 
 __How__
 
-In order to identify these code clones, I developed the following method -explained more in detailed in section 3.1.2 of my above mentioned thesis:
+In order to identify these code clones, I developed the following method -explained more in detail in section 3.1.2 of my above mentioned thesis:
 
 1) Run CCFinder taking as input a list containing the names of source files we are to analyze
 2) Select those clone classes with the highest values in metrics like class population (number of clones from the same type) and spreading ratio of clones (i.e., in which files, directories or packages are the clones located)
