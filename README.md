@@ -1,6 +1,6 @@
 ## Theses code
 
-This repo contains the code of both my [Master of Science][m] and [Professional Doctorate in Engineering][pd] (see page 26 & 27).
+This repo contains the code of both my [Master of Science][m] and [Professional Doctorate in Engineering][pd] (see pages 26 & 27).
 
 [m]: https://github.com/omendezmorales/Theses_code/blob/master/msc/README.md
 
