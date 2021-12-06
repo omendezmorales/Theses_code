@@ -3,6 +3,7 @@ If you've read my [thesis][t], you'll find that I've come up with a method that 
 [t]: ./Aspect_mining_using_clone_detection_OrlandoMendez_MSc.pdf
 [cc]:http://www.ccfinder.net/index.html
 
+![portrait](clone_detection.jpg)
 __Why__
 
 Code-clone identification is necessary because in OO systems with a (very) big code base, 
