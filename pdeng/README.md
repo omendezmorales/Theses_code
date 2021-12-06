@@ -1,5 +1,6 @@
 # Overview
 The following outlines the solution I developed for my degree project for the [Professional Doctorate of Engineering in Software Technology][dip]. Of course, the content presented here is an over-simplication, and should you want to know more, either contact me, or have a read to the [tecnnical report][tr].
+![cover](../msc/Optimization_SW_installation_procedures.jpg)
 
 [tr]: https://tue.on.worldcat.org/oclc/657966320
 
